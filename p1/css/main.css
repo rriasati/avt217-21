@@ -1,0 +1,30 @@
+/*****************
+
+style rule setup
+
+selector {
+  property: value:
+}
+
+*****************/
+
+body {
+  background-color: black;
+  margin-top: 100px;
+}
+h1 {
+  Color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+a {
+  color: tomato;
+}
+a:hover {color: dodgerblue;
+}
+p {
+  color: white;
+}
