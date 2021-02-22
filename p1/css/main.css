@@ -9,16 +9,24 @@ selector {
 *****************/
 
 body {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
   background-color: darkblue;
-  margin-top: 100px;
-}
+  font-size:25px;
+  margin-top:130px;
+ }
 h1 {
-  Color: white;
+  color: red;
   text-align: center;
+  font-size:40px;
+  margin-top:50px;
+  font-size:50px;
 }
 h2 {
-  color: white;
+  color: red;
   text-align: center;
+  margin-top:50px;
 }
 a {
   color: red;
