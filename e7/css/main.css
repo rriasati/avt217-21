@@ -1,6 +1,9 @@
+
 body {
   background-color: lightgreen;
   Color: darkblue;
+  margin-top:75px;
+  margin-left: 25px;
 }
 h1, h2, h3, h4 {
   Color:purple;
@@ -12,19 +15,5 @@ h4{font-style: italic;
 .common {font-style: italic;}
 #openning {
   font-style:italic;
-}
-body {
-  background-color: lightgreen;
-  Color: darkblue;
-}
-h1, h2, h3, h4 {
-  Color:purple;
-}
-ul li{font-style: italic;
-}
-h4{font-style: italic;
-   color: darkblue}
-.common {font-style: italic;}
-#openning {
-  font-style:italic;
+  margin-top: 50px;
 }
