@@ -6,12 +6,13 @@ body {
   margin-left: 25px;
 }
 h1, h2, h3, h4 {
-  Color:purple;
+  Color: purple;
 }
 ul li{font-style: italic;
 }
 h4{font-style: italic;
-   color: darkblue}
+   color: darkblue
+ }
 .common {font-style: italic;}
 #openning {
   font-style:italic;
