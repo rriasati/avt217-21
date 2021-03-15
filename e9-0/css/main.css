@@ -1,0 +1,41 @@
+body {
+  margin: 0
+}
+header, footer {
+  width: 50vw;
+  height: 100px;
+  background-color: dodgerblue;
+  margin: 50px auto;
+}
+main {
+  width: 50vw;
+  background-color: tomato;
+  margin: 50px auto;
+  display: flow-root;
+}
+.cola {
+  width: 45%;
+  height 500px;
+  background-color: black;
+  float: left;
+}
+.colb {
+  width: 45%;
+
+  background-color: gold;
+  margin: 0 0 0 10%;
+  float: left;
+}
+ img {
+   width: 100%;
+ }
+ h2 {
+   margin-top: 0
+}
+
+@media only screen and (max-width:
+  1000px) {
+    .cola, .colb {
+       width: 100%;
+       margin: 0;
+  }
