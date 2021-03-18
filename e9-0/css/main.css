@@ -9,20 +9,20 @@ header, footer {
 }
 main {
   width: 50vw;
-  background-color: tomato;
+  /*background-color: tomato; */
   margin: 50px auto;
   display: flow-root;
 }
 .cola {
   width: 45%;
   height 500px;
-  background-color: black;
+  /*background-color: black; */
   float: left;
 }
 .colb {
   width: 45%;
 
-  background-color: gold;
+  /*background-color: gold;*/
   margin: 0 0 0 10%;
   float: left;
 }
