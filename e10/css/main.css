@@ -1,0 +1,19 @@
+body{
+  background-color: lightblue;
+}
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: #333333;
+  float: left;
+}
+.red {
+  width:100px;
+  height:100px;
+  background-color: tomato;
+  float: left;
+}
+.board {
+  width: 800px;
+  display:flow-root;
+}
