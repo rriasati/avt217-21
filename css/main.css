@@ -1,27 +1,58 @@
+/******* general style *****/
 * {
-  margin: 100;
-  padding: 100;
   box-sizing: border-box;
 }
-body {
-  font-family: 'Noto Serif', serif;
-  background-color: red;
-  margin-top:110px;
-  margin-left: 50px;
-  font-size:20px
+html {
+  font-size: 20px;
 }
+body {
+  background-color: red;
+  /*text-align: center;*/
+  font-family: 'Noto Serif', serif;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+/****** layout styles ******/
+header {
+  width: 75vw;
+  margin: 25px auto;
+  margin-top:110px;
+  /*background-color: white;*/
+}
+
+main {
+  width: 75vw;
+  margin: 25px auto;
+  /*background-color: white;*/
+  display: flow-root;
+}
+
+/****** type styles ******/
 h1 {font-family: bely,serif;
   font-weight: 800;
   font-style: italic;
+  text-align: left;
   Color: darkblue;
 }
 h3 {
   margin-top:50px;
   font-weight: 800;
   font-style: bold italic;
+  text-align: left;
   Color: darkblue;}
 a {
   color: darkblue;
 }
 a:hover {color: lightgreen;
+}
+img {
+  max-width: 100%
+}
+@media screen and (max-width: 890px) {
+  .col {
+    width: 100%;
+    margin-bottom:25px;
+  }
 }
