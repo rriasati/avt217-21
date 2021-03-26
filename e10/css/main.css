@@ -2,18 +2,19 @@ body{
   background-color: lightblue;
 }
 .black {
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
   background-color: #333333;
   float: left;
 }
 .red {
-  width:100px;
-  height:100px;
+  width:10vw;
+  height:10vw;
   background-color: tomato;
   float: left;
 }
 .board {
-  width: 800px;
+  width: 80vw;
   display:flow-root;
+  margin: 100px auto;
 }
