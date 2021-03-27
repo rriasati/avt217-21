@@ -1,6 +1,7 @@
 body{
   background-color: lightblue;
 }
+
 .black {
   width: 10vw;
   height: 10vw;
@@ -16,5 +17,15 @@ body{
 .board {
   width: 80vw;
   display:flow-root;
-  margin: 100px auto;
+  margin:100px auto;
+}
+.columngrid {
+  width: 70vw;
+  display:flow-root;
+  margin:100px auto;
+}
+.bloglayout {
+  width: 70vw;
+  display:flow-root;
+  margin:100px auto;
 }
