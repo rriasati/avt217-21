@@ -19,13 +19,104 @@ body{
   display:flow-root;
   margin:100px auto;
 }
-.columngrid {
-  width: 70vw;
-  display:flow-root;
-  margin:100px auto;
+.headline {
+  width: 61vw;
+  height: 10vw;
+  background-color: tomato;
+  float: left;
 }
-.bloglayout {
-  width: 70vw;
-  display:flow-root;
-  margin:100px auto;
+.subhead {
+  width: 61vw;
+  height: 3vw;
+  background-color: tomato;
+  margin-top: 2vw;
+  margin-bottom:2vw;
+  float: left;
 }
+.col1 {
+  width: 19vw;
+  height: 50vw;
+  background-color: tomato;
+  margin-right: 2vw;
+  float: left;
+}
+.col2 {
+  width: 19vw;
+  height: 50vw;
+  background-color: tomato;
+  margin-right:2vw;
+  float: left;
+}
+.col3 {
+  width: 19vw;
+  height: 50vw;
+  background-color: tomato;
+  float: left;
+}
+.footnote {
+  width: 61vw;
+  height: 10vw;
+  background-color: tomato;
+  margin-top: 2vw;
+  float: left;
+  }
+  .columngrid {
+    width: 61vw;
+    display:flow-root;
+    margin:100px auto;
+  }
+.top{
+  width: 60vw;
+  height: 10vw;
+  background-color: tomato;
+  float: left;
+}
+.blg1{
+  width: 48vw;
+  height: 34vw;
+  background-color: tomato;
+  margin-right: 1vw;
+  margin-top: 6vw;
+  float: left;
+}
+.box1{
+  width: 11vw;
+  height: 15vw;
+  background-color: tomato;
+  margin-top: 6vw;
+  float: left;
+}
+.foot1{
+  width: 48vw;
+  height: 5vw;
+  background-color: tomato;
+  margin-top: 1vw;
+  margin-bottom:6vw;
+  float: left;
+}
+.blg2{
+  width: 48vw;
+  height: 34vw;
+  background-color: tomato;
+  margin-right: 1vw;
+  float: left;
+}
+.box2{
+  width: 11vw;
+  height: 15vw;
+  background-color: tomato;
+  margin-top: 0vw;
+ float: left;
+}
+.foot2{
+  width: 48vw;
+  height: 5vw;
+  background-color: tomato;
+  margin-top: 1vw;
+  float: left;
+}
+  .bloglayout {
+    width: 70vw;
+    display:flow-root;
+    margin:100px auto;
+  }
